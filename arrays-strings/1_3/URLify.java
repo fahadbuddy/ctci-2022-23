@@ -20,7 +20,7 @@ public static String encoded(String s1, int n) {
 			result[k--]='%';
 			i--;
 		} else {
-			result[k--]=result[i--]; // k = 7, i=5 // result="Hi Bob! !" //result="Hi BBob!"
+			result[k--]=result[i--]; // k = 7, i=5 // res	ult="Hi Bob! !" //result="Hi BBob!"
 		}
 	}
 	return new String(result);
